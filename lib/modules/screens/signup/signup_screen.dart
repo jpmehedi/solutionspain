@@ -53,6 +53,7 @@ class SignUpScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 32,),
                     Container(
+                      height: Get.height < 720 ? Get.height * 0.90 : Get.height * 0.75,
                       decoration: BoxDecoration(
                         color: AppColor.kWhiteColor,
                         borderRadius: BorderRadius.only(topLeft: Radius.circular(20), topRight:  Radius.circular(20))
