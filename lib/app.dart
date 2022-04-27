@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, deviceType){
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Nec Moeny',
+          title: 'Demo App',
           locale: Get.deviceLocale,
           translations: AppTranslations(),
           builder: EasyLoading.init(),
